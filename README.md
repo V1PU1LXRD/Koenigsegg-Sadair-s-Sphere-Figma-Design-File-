@@ -10,7 +10,7 @@
 
 <br>
 
-<img src="./design/preview-hero.png" alt="Koenigsegg Sadair's Sphere Preview" width="100%" style="border-radius: 12px;" />
+<img src="design/Koenigsegg Sadair's Sphere(Figma).png" alt="Koenigsegg Sadair's Sphere Preview" width="100%" style="border-radius: 12px;" />
 
 <br>
 
