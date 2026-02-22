@@ -60,23 +60,6 @@ hierarchy to the asymmetric layout — is intentional.
 
 ---
 
-## 📐 Layout & Specifications
-
-┌─────────────────────────────────────────────────┐
-│  [Logo]     Megacars    Technology    About     │
-│                                                 |
-│   S P H E R E                                   │
-│              ┌──────────────────────┐           │
-│              │                      │           │
-│   SADAIR'S   │    HERO IMAGE        │  [thumb]  │
-│              │    (Hypercar)        │           │
-│   1625 hp    │                      │ [Explore→]│
-│   360 km/h   └──────────────────────┘           │
-│                  Description text               │
-└─────────────────────────────────────────────────┘
-
----
-
 ## 🚀 Figma File
 
 🔗 **[View on Figma](YOUR-FIGMA-SHARE-LINK-HERE)** ← (right-click your Figma project → "Copy link")
