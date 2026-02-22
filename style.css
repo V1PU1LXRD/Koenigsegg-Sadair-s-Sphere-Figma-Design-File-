@@ -1,0 +1,206 @@
+/* ═══════════════════════════════════════════
+   KOENIGSEGG SADAIR'S SPHERE — MAIN STYLES
+   ═══════════════════════════════════════════ */
+
+:root {
+    --amber: #D4A04A;
+    --deep-black: #0A0A0A;
+    --dark-brown: #1A1008;
+    --soft-white: #F5F0EB;
+    --muted: #888;
+    --cta-red: #C0392B;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--deep-black);
+    color: var(--soft-white);
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+/* ── Navigation ── */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background: linear-gradient(to bottom, rgba(10,10,10,0.9), transparent);
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo-img {
+    width: 30px;
+    height: 30px;
+}
+
+.logo-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+}
+
+.nav-links a {
+    color: var(--soft-white);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--amber);
+}
+
+/* ── Hero Section ── */
+.hero {
+    position: relative;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 120px 1fr 300px;
+    align-items: center;
+    padding: 0 3rem;
+    overflow: hidden;
+    background: radial-gradient(ellipse at center, #1a1008 0%, #0a0a0a 70%);
+}
+
+.hero-bg-title {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(6rem, 15vw, 14rem);
+    color: rgba(212, 160, 74, 0.08);
+    letter-spacing: 20px;
+    z-index: 1;
+    user-select: none;
+}
+
+/* ── Stats ── */
+.hero-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    z-index: 10;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+}
+
+.stat-value {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    background: linear-gradient(to bottom, var(--amber), #8B6914);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.stat-unit {
+    font-size: 1rem;
+    color: var(--amber);
+    margin-top: -0.3rem;
+}
+
+.stat-label {
+    font-size: 0.75rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 0.3rem;
+}
+
+/* ── Center Car ── */
+.hero-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.hero-car {
+    max-width: 90%;
+    height: auto;
+    filter: drop-shadow(0 0 60px rgba(212, 160, 74, 0.2));
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+}
+
+/* ── Right Info ── */
+.hero-info {
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.hero-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 8px;
+    color: var(--soft-white);
+}
+
+.hero-description {
+    font-size: 0.85rem;
+    line-height: 1.7;
+    color: var(--muted);
+    max-width: 280px;
+}
+
+.hero-thumbnail img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 12px;
+    border: 1px solid rgba(212, 160, 74, 0.2);
+}
+
+.btn-explore {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    background: var(--cta-red);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    width: fit-content;
+    transition: all 0.3s ease;
+}
+
+.btn-explore:hover {
+    background: #E74C3C;
+    transform: translateX(5px);
+    box-shadow: 0 5px 30px rgba(192, 57, 43, 0.4);
+}
