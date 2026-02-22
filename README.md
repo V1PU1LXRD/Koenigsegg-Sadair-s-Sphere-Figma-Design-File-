@@ -56,16 +56,12 @@ hierarchy to the asymmetric layout — is intentional.
 | Body       | Inter          | Regular  | 16px   |
 | Stats      | Orbitron       | Bold     | 48px   |
 
-> *(Adjust to match your actual Figma specs)*
 
 ---
 
 ## 🚀 Figma File
 
-🔗 **[View on Figma](YOUR-FIGMA-SHARE-LINK-HERE)** ← (right-click your Figma project → "Copy link")
-
-> To get a shareable link: In Figma → Click **"Share"** (top right) →
-> Set to **"Anyone with the link" → "can view"** → Copy link
+🔗 **[View on Figma](https://www.figma.com/design/XhwaLYcFiugaH8BwNfTkXt/Koenigsegg-Sadairs-Sphere?node-id=0-1&t=lXHk0zp6RLfAkZqX-1)**
 
 ---
 
@@ -87,7 +83,7 @@ Planned stack:
 
 | Desktop | Mobile |
 |---------|--------|
-| ![Desktop](./design/preview-hero.png) | ![Mobile](./design/preview-mobile.png) |
+| ![Desktop](design/Koenigsegg Sadair's Sphere(Figma).png) | ![Mobile](./design/preview-mobile.png) |
 
 </div>
 
