@@ -83,7 +83,7 @@ Planned stack:
 
 | Desktop | Mobile |
 |---------|--------|
-| ![Desktop](design/Koenigsegg Sadair's Sphere(Figma).png) | ![Mobile](./design/preview-mobile.png) |
+| ![Desktop](https://github.com/V1PU1LXRD/Koenigsegg-Sadair-s-Sphere-Figma-Design-File-/blob/main/design/Koenigsegg%20Sadair's%20Sphere(Figma).png) | ![Mobile](./design/preview-mobile.png) |
 
 </div>
 
